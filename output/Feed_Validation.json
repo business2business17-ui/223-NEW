@@ -1,0 +1,65 @@
+{
+ "status": "READY_FOR_AMAZON_UPLOAD",
+ "blockers": 0,
+ "warnings": 0,
+ "files": {
+  "partial": {
+   "file": "223_PartialUpdate_CELLULAR_PHONE_CASE.xlsm",
+   "rows": 413,
+   "nontemplate_parts_identical": true,
+   "rows1_6_identical": true,
+   "contiguous_from_row7": true,
+   "dimension": "A1:KV419",
+   "sha256": "c8eb433ee24eef13f4b27e794c9d2443b2d744ce4c2318b21260b2cfadb65e8a",
+   "size": 2910730,
+   "duplicate_titles": 0
+  },
+  "c1": {
+   "file": "223_Create_CELLULAR_PHONE_CASE_part1.xlsm",
+   "rows": 1620,
+   "nontemplate_parts_identical": true,
+   "rows1_6_identical": true,
+   "contiguous_from_row7": true,
+   "dimension": "A1:KV1626",
+   "sha256": "163c9e86433e41321ee69681e04f480b58afab68e1b860aa29347c67812b62eb",
+   "size": 3458024,
+   "duplicate_titles": 0
+  },
+  "c2": {
+   "file": "223_Create_CELLULAR_PHONE_CASE_part2.xlsm",
+   "rows": 1620,
+   "nontemplate_parts_identical": true,
+   "rows1_6_identical": true,
+   "contiguous_from_row7": true,
+   "dimension": "A1:KV1626",
+   "sha256": "8694bb175ff078d4408e12dadf4571ae36a362a3d1f857ee5f663d7d6fa79445",
+   "size": 3462153,
+   "duplicate_titles": 0
+  }
+ },
+ "total_skus": 3653,
+ "coverage_ok": true,
+ "template": {
+  "file": "CELLULAR_PHONE_CASE(1).xlsm",
+  "sha256": "3209441c2159183438c2594cf4d4d9edb439dbed0cabb64342922f19cf5e2f06",
+  "header_diffs_vs_prior_feed": 0,
+  "macros_vba_present": false,
+  "sheets": [
+   "Changes to the template",
+   "Instructions",
+   "Images",
+   "Data Definitions",
+   "Template",
+   "Browse Data",
+   "Conditions List",
+   "Valid Values",
+   "Dropdown Lists",
+   "AttributePTDMAP"
+  ],
+  "data_start_row": 7,
+  "row6": "Amazon example row (read-only)"
+ },
+ "enum_columns_checked": 145,
+ "images_checked": 0,
+ "issue_counts": []
+}
