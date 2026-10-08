@@ -1,0 +1,666 @@
+[
+ {
+  "column": "A",
+  "header": "SKU",
+  "amazon_field": "contribution_sku#1.value",
+  "requirement": "Required",
+  "source": "Mapping 07.10: new SKU (col B)",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "B",
+  "header": "Product Type",
+  "amazon_field": "product_type#1.value",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "C",
+  "header": "Listing Action",
+  "amazon_field": "::record_action",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "G",
+  "header": "Item Name",
+  "amazon_field": "item_name[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Required",
+  "source": "Generated: color phrase + model (col C of mapping) + print name (PDF/feed)",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "H",
+  "header": "Item Highlight",
+  "amazon_field": "title_differentiation[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "I",
+  "header": "Brand Name",
+  "amazon_field": "brand[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "J",
+  "header": "Product Id Type",
+  "amazon_field": "amzn1.volt.ca.product_id_type",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "K",
+  "header": "Product Id",
+  "amazon_field": "amzn1.volt.ca.product_id_value",
+  "requirement": "Conditionally Required",
+  "source": "All Listings Report ASIN",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "L",
+  "header": "Item Type Keyword",
+  "amazon_field": "item_type_keyword[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "P",
+  "header": "Model Number",
+  "amazon_field": "model_number[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "R",
+  "header": "Manufacturer",
+  "amazon_field": "manufacturer[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "U",
+  "header": "Main Image URL",
+  "amazon_field": "main_product_image_locator[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Mapping 07.10 image URL cols E-L",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "V",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_1[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "W",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_2[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "X",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_3[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "Y",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_4[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "Z",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_5[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AA",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_6[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AB",
+  "header": "Other Image URL",
+  "amazon_field": "other_product_image_locator_7[marketplace_id=ATVPDKIKX0DER]#1.media_location",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AE",
+  "header": "Product Description",
+  "amazon_field": "product_description[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AF",
+  "header": "Bullet Point",
+  "amazon_field": "bullet_point[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AG",
+  "header": "Bullet Point",
+  "amazon_field": "bullet_point[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#2.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AH",
+  "header": "Bullet Point",
+  "amazon_field": "bullet_point[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#3.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AI",
+  "header": "Bullet Point",
+  "amazon_field": "bullet_point[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#4.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AJ",
+  "header": "Bullet Point",
+  "amazon_field": "bullet_point[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#5.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AK",
+  "header": "Generic Keyword",
+  "amazon_field": "generic_keyword[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AL",
+  "header": "Special Features",
+  "amazon_field": "special_feature[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AM",
+  "header": "Special Features",
+  "amazon_field": "special_feature[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#2.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AN",
+  "header": "Special Features",
+  "amazon_field": "special_feature[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#3.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AO",
+  "header": "Special Features",
+  "amazon_field": "special_feature[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#4.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AP",
+  "header": "Special Features",
+  "amazon_field": "special_feature[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#5.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AR",
+  "header": "Material",
+  "amazon_field": "material[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "AW",
+  "header": "Number of Items",
+  "amazon_field": "number_of_items[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BB",
+  "header": "Color",
+  "amazon_field": "color[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Mapping 07.10 colour (col D) -> Amazon enum",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BD",
+  "header": "Part Number",
+  "amazon_field": "part_number[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BE",
+  "header": "Case Material Type",
+  "amazon_field": "case[marketplace_id=ATVPDKIKX0DER]#1.material[language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BM",
+  "header": "Compatible Phone Models",
+  "amazon_field": "compatible_phone_models[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BP",
+  "header": "Form Factor",
+  "amazon_field": "form_factor[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BU",
+  "header": "Compatible Devices",
+  "amazon_field": "compatible_devices[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "BZ",
+  "header": "Finish Type",
+  "amazon_field": "finish_type[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "CR",
+  "header": "Item Thickness Decimal Value",
+  "amazon_field": "item_thickness[marketplace_id=ATVPDKIKX0DER]#1.decimal_value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "CT",
+  "header": "Item Thickness Unit",
+  "amazon_field": "item_thickness[marketplace_id=ATVPDKIKX0DER]#1.unit",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DB",
+  "header": "Compatible Cellular Phone Models",
+  "amazon_field": "compatible_cellular_phone_models[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DC",
+  "header": "Compatible Cellular Phone Models",
+  "amazon_field": "compatible_cellular_phone_models[marketplace_id=ATVPDKIKX0DER]#2.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DI",
+  "header": "Wireless Charging Standard",
+  "amazon_field": "wireless_charging_standard[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DP",
+  "header": "Item Weight",
+  "amazon_field": "item_weight[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DQ",
+  "header": "Item Weight Unit",
+  "amazon_field": "item_weight[marketplace_id=ATVPDKIKX0DER]#1.unit",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DS",
+  "header": "Item Condition",
+  "amazon_field": "condition_type[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "DU",
+  "header": "List Price",
+  "amazon_field": "list_price[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "ES",
+  "header": "Fulfillment Channel Code (US)",
+  "amazon_field": "fulfillment_availability#1.fulfillment_channel_code",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "ET",
+  "header": "Quantity (US)",
+  "amazon_field": "fulfillment_availability#1.quantity",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "EX",
+  "header": "Your Price USD (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.our_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "EZ",
+  "header": "Minimum Seller Allowed Price (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.minimum_seller_allowed_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FA",
+  "header": "Maximum Seller Allowed Price (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.maximum_seller_allowed_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FB",
+  "header": "Sale Price USD (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.discounted_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FC",
+  "header": "Sale Start Date (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.discounted_price#1.schedule#1.start_at",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FD",
+  "header": "Sale End Date (Sell on Amazon, US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=ALL]#1.discounted_price#1.schedule#1.end_at",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FG",
+  "header": "Your Price USD (Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.our_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FH",
+  "header": "Minimum Seller Allowed Price (Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.minimum_seller_allowed_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FI",
+  "header": "Maximum Seller Allowed Price (Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.maximum_seller_allowed_price#1.schedule#1.value_with_tax",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FL",
+  "header": "Quantity Price Type (Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.quantity_discount_plan#1.schedule#1.discount_type",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FM",
+  "header": "Quantity Threshold (Lower Bound, Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#1.lower_bound",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FN",
+  "header": "Quantity Price (Fixed Price/Percentage Discount, Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#1.value",
+  "requirement": "Optional",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FO",
+  "header": "Quantity Threshold (Lower Bound, Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#2.lower_bound",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FP",
+  "header": "Quantity Price (Fixed Price/Percentage Discount, Amazon Business (B2B), US)",
+  "amazon_field": "purchasable_offer[marketplace_id=ATVPDKIKX0DER][audience=B2B]#1.quantity_discount_plan#1.schedule#1.levels#2.value",
+  "requirement": "n/a",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FX",
+  "header": "Item Length",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.length.value",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FY",
+  "header": "Item Length Unit",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.length.unit",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "FZ",
+  "header": "Item Width",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.width.value",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GA",
+  "header": "Item Width Unit",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.width.unit",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GB",
+  "header": "Item Height",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.height.value",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GC",
+  "header": "Item Height Unit",
+  "amazon_field": "item_dimensions[marketplace_id=ATVPDKIKX0DER]#1.height.unit",
+  "requirement": "Recommended",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GD",
+  "header": "Item Package Length",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.length.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GE",
+  "header": "Package Length Unit",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.length.unit",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GF",
+  "header": "Item Package Width",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.width.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GG",
+  "header": "Package Width Unit",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.width.unit",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GH",
+  "header": "Item Package Height",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.height.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GI",
+  "header": "Package Height Unit",
+  "amazon_field": "item_package_dimensions[marketplace_id=ATVPDKIKX0DER]#1.height.unit",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GJ",
+  "header": "Package Weight",
+  "amazon_field": "item_package_weight[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GK",
+  "header": "Package Weight Unit",
+  "amazon_field": "item_package_weight[marketplace_id=ATVPDKIKX0DER]#1.unit",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GO",
+  "header": "Country of Origin",
+  "amazon_field": "country_of_origin[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GP",
+  "header": "Warranty Description",
+  "amazon_field": "warranty_description[marketplace_id=ATVPDKIKX0DER][language_tag=en_US]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GS",
+  "header": "Are batteries required?",
+  "amazon_field": "batteries_required[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ },
+ {
+  "column": "GT",
+  "header": "Are batteries included?",
+  "amazon_field": "batteries_included[marketplace_id=ATVPDKIKX0DER]#1.value",
+  "requirement": "Conditionally Required",
+  "source": "Prior uploaded feed (223 CELLULAR_PHONE_CASE.xlsm) / colour+model template",
+  "confidence": "HIGH"
+ }
+]
